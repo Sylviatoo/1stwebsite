@@ -1,0 +1,51 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-size:100%;
+    text-align:justify;  }
+
+body {font-size: .85em; background-color:rgb(17, 5, 62);}
+
+h1, h2 {color:rgb(183, 185, 202); background-image:url(images/fondtitre.jpg); background-attachment:fixed; margin:2px;}
+h3{background: linear-gradient(to bottom, rgb(189, 192, 215), rgb(74, 57, 143));}
+h1{height:40px;}
+h2{height:30px;}
+h3{height:20px;}
+
+p, ul {color:rgb(173, 172, 210); font-weight:500;}
+
+.class{color:#e37cff; text-decoration:underline;}
+.class:hover{color:rgb(233, 173, 62); text-decoration:underline;}
+
+.conteneuronglets{display:flex; flex-direction: row; justify-content: flex-start; flex-wrap: wrap;}
+.onglet2, .onglet3, .onglet4, .onglet5, .accueil {
+    border:solid;
+    width:20px;
+    border-radius:10px;
+    width:120px;
+    height:50px;
+    background: linear-gradient(to bottom, rgb(212, 193, 171), rgb(234, 240, 238));
+    border-color:rgb(72, 72, 93);
+    text-align:center;
+    vertical-align:middle;
+    text-transform:uppercase;
+    margin:5%;}
+
+.survol:hover{color:rgb(233, 173, 62);}
+
+.moi1{width:120px; height:120px;} 
+.cv{width:110px;height:150px;}
+
+.conteneursmotivation{display:grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 0,5fr 1fr 1fr; gap:2px;}
+.moi2{grid-row-start: 1; grid-row-end: 2; grid-column-start: 1; grid-column-end: 2;}
+.accueil{grid-row-start: 1; grid-row-end: 2; grid-column-start: 2; grid-column-end: 3; position: relative;  top:50px; right:30px;}
+.conteneurtitre{grid-row-start: 2; grid-row-end: 3; grid-column-start: 1; grid-column-end: 6;}
+.conteneurlm{grid-row-start: 3; grid-row-end: 4; grid-column-start: 1; grid-column-end: 4;}
+.conteneurformation{grid-row-start: 3; grid-row-end: 4; grid-column-start: 4; grid-column-end: 6;}
+
+.info{width: 300px; text-align: center;}
+.sigle{width:150px;height:70px;}
+.logoadrar{text-align: center;}
+.contacts{text-align: left; padding-left: 15px;}
+.moi2{width:120px; height:120px;} 
+
